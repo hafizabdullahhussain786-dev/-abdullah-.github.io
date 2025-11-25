@@ -1,0 +1,42 @@
+.hero-section {
+ background-color:#cfb001 ;
+    color: white;
+    padding-top: px;
+    padding-bottom: px;
+    text-decoration: solid;
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.image-container {
+  width: 50%;
+ 
+  
+}
+.image-container img {
+  width:758px;
+  height: 655px;
+  object-fit: cover;
+  transform: translateX(50px);
+}
+.hover-btn {
+    background-color: #000000;
+    color: white;
+    padding: 12px 24px;
+    border: 50px;
+    border-radius: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.1s ease; /* smooth hover animation */
+     position: absolute; /* enables corner placement */
+    top: 380px;          /* distance from top */
+    right: 1025px;
+}
+.hover-btn:hover {
+    background-color: #cfb001; /* darker color on hover */
+    transform: scale(1.10);   /* slight zoom effect */
+}

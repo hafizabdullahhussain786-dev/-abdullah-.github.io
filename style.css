@@ -1,0 +1,167 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header {
+  display: flex;
+  justify-content: space-between;   /* Name on left, buttons on right */
+  align-items: center;              /* Align vertically */
+  padding: 20px;
+  background-color: black;
+}
+
+h1 {
+  color: white;
+  margin: 0;
+}
+
+.nav-buttons button {
+  margin-left: 10px;
+  padding: 8px 16px;
+  border-radius:5px ;
+  background: #cfb001;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.nav-buttons button:hover {
+  background:#000000 ;
+  color: white;
+}
+
+
+
+.hero-section {
+  padding: 25px 25px;
+  background-color: #cfb001;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.image-container {
+  width: 50%;
+  
+}
+.image-container img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  transform: translateX(50px);
+}
+.text-container {
+  width: 50%;
+  padding: 0 20px;
+  color: white;
+  
+}
+.text-container h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+.text-container p {
+  font-size: 18px;
+  color:white;
+}
+
+
+
+
+
+#skills {
+  padding: 25px 0;
+  background-color: #000000;
+  color: white;
+}
+.ctr {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.txtctr {
+  width: 50%;
+  padding: 0 20px;
+  color: white;
+  
+}
+
+
+
+#projects {
+  padding: 25px 0;
+  background-color: #cfb001;
+  color: white;
+}
+.proctr {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.protxtctr {
+  width: 50%;
+  padding: 0 20px;
+  color: white;
+  
+}
+
+
+
+
+
+#contact{
+  background-color: black;
+  color: white;
+  height: 600px;
+}
+.h2{
+  padding-top: 50px;
+  padding-left: 170px;
+}
+
+.contact-form {
+    width: 50%;
+    margin: 40px auto;
+    padding: 38px;
+    background-color: #cfb001;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.form-group input, .form-group textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.form-group textarea {
+    height: 100px;
+    resize: none;
+}
+
+
+
